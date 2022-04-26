@@ -28,7 +28,6 @@ h1 {
 }
 }
 .footer {
-display: flex;
 max-width: 25em;
 margin: 0 auto;
 }
