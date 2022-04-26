@@ -30,6 +30,7 @@ h1 {
 .footer {
 max-width: 25em;
 margin: 0 auto;
+text-align: center;
 }
 a, a:hover {
 color: #eee;
