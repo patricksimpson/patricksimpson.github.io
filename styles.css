@@ -56,3 +56,22 @@ display: none;
     display: inline-block;
   }
 }
+.title-link {
+  text-decoration:none;
+}
+blockquote {
+  border-left: 0.5rem solid #404040;
+  margin: 1.5rem 0.5rem;
+  padding: 0.5rem 0.5rem;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
