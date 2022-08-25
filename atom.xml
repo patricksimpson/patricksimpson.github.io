@@ -4,13 +4,54 @@
  <title>Patrick Simpson</title>
  <link href="/atom.xml" rel="self"/>
  <link href="https://patricksimpson.me/"/>
- <updated>2022-08-25T08:53:08-04:00</updated>
+ <updated>2022-08-25T18:17:47-04:00</updated>
  <id>https://patricksimpson.me</id>
  <author>
    <name>Patrick Simpson</name>
    <email>patrick@patricksimpson.me</email>
  </author>
 
+ 
+ <entry>
+   <title>Heroku</title>
+   <link href="https://patricksimpson.me/2022/08/25/goodbye-heroku/"/>
+   <updated>2022-08-25T00:00:00-04:00</updated>
+   <id>https://patricksimpson.me/2022/08/25/goodbye-heroku</id>
+   <content type="html">&lt;p&gt;Finding out about &lt;a href=&quot;https://help.heroku.com/RSBRUH58/removal-of-heroku-free-product-plans-faq&quot;&gt;Heroku removing the free tier&lt;/a&gt; does sting a bit. Being one of the first PaaS services I ever used, it’s a little sad to see it go. I wonder if free PaaS is a pipe dream? At some point &lt;em&gt;free&lt;/em&gt; becomes impossible. I am sure there will be others to give it a shot… but for how long? We need to be able to be flexible, learn to pivot if need be or just pay up. 
+So, here’s one ☕ Heroku, thanks for making your free tier service, it was great while it lasted.&lt;/p&gt;
+
+&lt;h2 id=&quot;alternatives&quot;&gt;Alternatives&lt;/h2&gt;
+
+&lt;h3 id=&quot;render&quot;&gt;Render&lt;/h3&gt;
+
+&lt;p&gt;I have not used Render, but it looks like it can do just about all what Heroku does (Host rails, php, nodejs, etc.. with a free tier).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://render.com/&quot;&gt;https://render.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;aws&quot;&gt;AWS&lt;/h3&gt;
+
+&lt;p&gt;Aws has a free tier. It might more complex, but you can get something up and running for free using a myriad of services:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://aws.amazon.com/elasticbeanstalk&quot;&gt;AWS BeanStalk&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://aws.amazon.com/s3&quot;&gt;AWS S3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://aws.amazon.com/ec2&quot;&gt;AWS EC2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://aws.amazon.com/rds&quot;&gt;AWS RDS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;netlify&quot;&gt;Netlify&lt;/h3&gt;
+
+&lt;p&gt;Reminds me of Divshot 🪦 (who remembers that?) great for static hosting, free.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.netlify.com/&quot;&gt;https://www.netlify.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;github-pages&quot;&gt;Github Pages&lt;/h3&gt;
+
+&lt;p&gt;I personally use Github Pages. It’s great, it’s fast and easy to get your static store hosted!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://pages.github.com/&quot;&gt;https://pages.github.com/&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Mastermind</title>
