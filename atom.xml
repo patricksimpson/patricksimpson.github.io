@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Patrick Simpson</title>
+ <link href="/atom.xml" rel="self"/>
+ <link href="https://patricksimpson.me/"/>
+ <updated>2022-08-25T08:42:38-04:00</updated>
+ <id>https://patricksimpson.me</id>
+ <author>
+   <name>Patrick Simpson</name>
+   <email>patrick@patricksimpson.me</email>
+ </author>
+
+ 
+ <entry>
+   <title>Mastermind</title>
+   <link href="https://patricksimpson.me/2022/06/02/mastermind/"/>
+   <updated>2022-06-02T00:00:00-04:00</updated>
+   <id>https://patricksimpson.me/2022/06/02/mastermind</id>
+   <content type="html">&lt;p&gt;My kids and I love to play games, one of our favorites is Mastermind.
+Unfortunately, we were missing lots of pegs… We’d come up with interesting ways to account for this, in which inspired me to write our own version. We’d love to share it with you…&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://patricksimpson.me/mastermind&quot;&gt;Play Mastermind&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s open source on &lt;a href=&quot;https://github.com/patricksimpson/mastermind&quot;&gt;github&lt;/a&gt;!&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-play&quot;&gt;How to play&lt;/h2&gt;
+
+&lt;p&gt;Click a gray space, then pick a color on the left. Once you have 4 color spaces, press “score” to see your score for that row. For more detailed instructions: https://www.wikihow.com/Play-Mastermind&lt;/p&gt;
+
+&lt;h2 id=&quot;scoring&quot;&gt;Scoring&lt;/h2&gt;
+
+&lt;p&gt;Each white peg means that one of the guessed pegs is correct, but is in the wrong hole. Each red (or black) peg means that one of the guessed pegs is correct, and is in the right hole. The order of the white and black pegs does not matter.&lt;/p&gt;
+
+&lt;h2 id=&quot;end&quot;&gt;End&lt;/h2&gt;
+
+&lt;p&gt;If you guess the correct code, you win!&lt;/p&gt;
+
+&lt;h2 id=&quot;restart&quot;&gt;Restart&lt;/h2&gt;
+
+&lt;p&gt;Refresh your browser for a new game.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Hard things are hard</title>
+   <link href="https://patricksimpson.me/2022/05/01/hardthings/"/>
+   <updated>2022-05-01T00:00:00-04:00</updated>
+   <id>https://patricksimpson.me/2022/05/01/hardthings</id>
+   <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;Nothing in the world is worth having or worth doing unless it means effort, pain, difficulty…
+– Theodore Roosevelt.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;To learn and grow, you must stretch yourself beyond your capabilities.&lt;/p&gt;
+
+&lt;p&gt;Your mind and your body grow the same way. Apply yourself to hard things.&lt;/p&gt;
+
+&lt;p&gt;Remember this next time you seek the “easy” thing.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Change</title>
+   <link href="https://patricksimpson.me/2022/04/01/introduction/"/>
+   <updated>2022-04-01T00:00:00-04:00</updated>
+   <id>https://patricksimpson.me/2022/04/01/introduction</id>
+   <content type="html">&lt;h2 id=&quot;analog&quot;&gt;Analog&lt;/h2&gt;
+
+&lt;p&gt;Adjective: relating to or using signals or information represented by a continuously variable physical quantity such as spatial position, voltage, etc.&lt;/p&gt;
+
+&lt;p&gt;Noun: a person or thing seen as comparable to another.&lt;/p&gt;
+
+&lt;h2 id=&quot;change&quot;&gt;Change&lt;/h2&gt;
+
+&lt;p&gt;I’ll be posting things here from time to time. You can still find me around the web.&lt;/p&gt;
+
+&lt;p&gt;I’ve made the switch to Jekyll, my older posts can be found on my &lt;a href=&quot;https://github.com/patricksimpson/posts&quot;&gt;github repo&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
