@@ -1,126 +1,33 @@
-<!DOCTYPE html>
-<html lang="en" data-theme="dark-poole">
-  <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+---
+layout: default
+title: Home
+---
 
-  <title>
-    
-      Patrick Simpson
-    
-  </title>
-
-  <link rel="stylesheet" href="/styles.css">
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/apple-touch-icon-precomposed.png">
-  <link rel="shortcut icon" href="/assets/favicon.ico">
-  <link rel="alternate" type="application/atom+xml" title="Patrick Simpson" href="/atom.xml">
-
-  <!-- Begin Jekyll SEO tag v2.8.0 -->
-<meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="Home" />
-<meta name="author" content="Patrick Simpson" />
-<meta property="og:locale" content="en_US" />
-<link rel="canonical" href="https://patricksimpson.me/" />
-<meta property="og:url" content="https://patricksimpson.me/" />
-<meta property="og:site_name" content="Patrick Simpson" />
-<meta property="og:type" content="website" />
-<link rel="next" href="https://patricksimpson.me/page2" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Home" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"Patrick Simpson","url":"https://www.linkedin.com/in/simpsonpatrick/"},"headline":"Home","name":"Patrick Simpson","url":"https://patricksimpson.me/"}</script>
-<!-- End Jekyll SEO tag -->
-
-</head>
-
-
-  <body>
-    <div class="container content">
-      <header class="masthead">
-        <h3 class="masthead-title">
-          <a href="/" title="Home">Patrick Simpson</a>
-
-          <nav class="nav">
-            
-            <small><a href="/archive">Blog</a></small>
-            
-            <small><a href="/about">About</a></small>
-            
-          </nav>
-        </h3>
-      </header>
-
-      <main>
-        <div class="posts">
-  
+<div class="posts">
+  {% for post in paginator.posts %}
   <article class="post">
     <h1 class="post-title">
-      <a href="/2022/08/25/goodbye-heroku/">
-        Heroku
+      <a href="{{ post.url | relative_url }}">
+        {{ post.title }}
       </a>
     </h1>
 
-    <time datetime="2022-08-25T00:00:00-04:00" class="post-date">25 Aug 2022</time>
+    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
 
-    <p>Finding out about <a href="https://help.heroku.com/RSBRUH58/removal-of-heroku-free-product-plans-faq">Heroku removing the free tier</a> does sting a bit. Being one of the first PaaS services I ever used, it’s a little sad to see it go. I wonder if free PaaS is a pipe dream? At some point <em>free</em> becomes impossible. I am sure there will be others to give it a shot… but for how long? We need to be able to be flexible, learn to pivot if need be or just pay up. 
-So, here’s one ☕ Heroku, thanks for making your free tier service, it was great while it lasted.</p>
-
-<h2 id="alternatives">Alternatives</h2>
-
-<h3 id="render">Render</h3>
-
-<p>I have not used Render, but it looks like it can do just about all what Heroku does (Host rails, php, nodejs, etc.. with a free tier).</p>
-
-<p><a href="https://render.com/">https://render.com/</a></p>
-
-<h3 id="aws">AWS</h3>
-
-<p>Aws has a free tier. It might more complex, but you can get something up and running for free using a myriad of services:</p>
-
-<ul>
-  <li><a href="https://aws.amazon.com/elasticbeanstalk">AWS BeanStalk</a></li>
-  <li><a href="https://aws.amazon.com/s3">AWS S3</a></li>
-  <li><a href="https://aws.amazon.com/ec2">AWS EC2</a></li>
-  <li><a href="https://aws.amazon.com/rds">AWS RDS</a></li>
-</ul>
-
-<h3 id="netlify">Netlify</h3>
-
-<p>Reminds me of Divshot 🪦 (who remembers that?) great for static hosting, free.</p>
-
-<p><a href="https://www.netlify.com/">https://www.netlify.com/</a></p>
-
-<h3 id="github-pages">Github Pages</h3>
-
-<p>I personally use Github Pages. It’s great, it’s fast and easy to get your static store hosted!</p>
-
-<p><a href="https://pages.github.com/">https://pages.github.com/</a></p>
-
+    {{ post.content }}
   </article>
-  
+  {% endfor %}
 </div>
 
 <div class="pagination">
-  
-    <a class="pagination-item older" href="/page2">Older</a>
-  
-  
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ paginator.next_page_path | relative_url }}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: relative_url }}">Newer</a>
+  {% else %}
     <span class="pagination-item newer">Newer</span>
-  
+  {% endif %}
 </div>
-
-      </main>
-
-      <footer class="footer">
-        <small>
-          &copy;
-          <time datetime="2022-08-25T18:17:47-04:00"
-            >2022</time
-          >. All rights reserved.
-        </small>
-      </footer>
-    </div>
-
-    
-  </body>
-</html>

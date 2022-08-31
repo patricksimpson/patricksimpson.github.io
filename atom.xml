@@ -1,125 +1,28 @@
+---
+layout: null
+---
+
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Patrick Simpson</title>
- <link href="/atom.xml" rel="self"/>
- <link href="https://patricksimpson.me/"/>
- <updated>2022-08-25T18:17:47-04:00</updated>
- <id>https://patricksimpson.me</id>
+ <title>{{ site.title }}</title>
+ <link href="{{ '/atom.xml' | relative_url }}" rel="self"/>
+ <link href="{{ site.url }}{{ site.baseurl }}/"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>{{ site.url }}</id>
  <author>
-   <name>Patrick Simpson</name>
-   <email>patrick@patricksimpson.me</email>
+   <name>{{ site.author.name }}</name>
+   <email>{{ site.author.email }}</email>
  </author>
 
- 
+ {% for post in site.posts %}
  <entry>
-   <title>Heroku</title>
-   <link href="https://patricksimpson.me/2022/08/25/goodbye-heroku/"/>
-   <updated>2022-08-25T00:00:00-04:00</updated>
-   <id>https://patricksimpson.me/2022/08/25/goodbye-heroku</id>
-   <content type="html">&lt;p&gt;Finding out about &lt;a href=&quot;https://help.heroku.com/RSBRUH58/removal-of-heroku-free-product-plans-faq&quot;&gt;Heroku removing the free tier&lt;/a&gt; does sting a bit. Being one of the first PaaS services I ever used, it’s a little sad to see it go. I wonder if free PaaS is a pipe dream? At some point &lt;em&gt;free&lt;/em&gt; becomes impossible. I am sure there will be others to give it a shot… but for how long? We need to be able to be flexible, learn to pivot if need be or just pay up. 
-So, here’s one ☕ Heroku, thanks for making your free tier service, it was great while it lasted.&lt;/p&gt;
-
-&lt;h2 id=&quot;alternatives&quot;&gt;Alternatives&lt;/h2&gt;
-
-&lt;h3 id=&quot;render&quot;&gt;Render&lt;/h3&gt;
-
-&lt;p&gt;I have not used Render, but it looks like it can do just about all what Heroku does (Host rails, php, nodejs, etc.. with a free tier).&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://render.com/&quot;&gt;https://render.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;aws&quot;&gt;AWS&lt;/h3&gt;
-
-&lt;p&gt;Aws has a free tier. It might more complex, but you can get something up and running for free using a myriad of services:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://aws.amazon.com/elasticbeanstalk&quot;&gt;AWS BeanStalk&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://aws.amazon.com/s3&quot;&gt;AWS S3&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://aws.amazon.com/ec2&quot;&gt;AWS EC2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://aws.amazon.com/rds&quot;&gt;AWS RDS&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;netlify&quot;&gt;Netlify&lt;/h3&gt;
-
-&lt;p&gt;Reminds me of Divshot 🪦 (who remembers that?) great for static hosting, free.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.netlify.com/&quot;&gt;https://www.netlify.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;github-pages&quot;&gt;Github Pages&lt;/h3&gt;
-
-&lt;p&gt;I personally use Github Pages. It’s great, it’s fast and easy to get your static store hosted!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://pages.github.com/&quot;&gt;https://pages.github.com/&lt;/a&gt;&lt;/p&gt;
-</content>
+   <title>{{ post.title | xml_escape }}</title>
+   <link href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>{{ site.url }}{{ post.id }}</id>
+   <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
- 
- <entry>
-   <title>Mastermind</title>
-   <link href="https://patricksimpson.me/2022/06/02/mastermind/"/>
-   <updated>2022-06-02T00:00:00-04:00</updated>
-   <id>https://patricksimpson.me/2022/06/02/mastermind</id>
-   <content type="html">&lt;p&gt;My kids and I love to play games, one of our favorites is Mastermind.
-Unfortunately, we were missing lots of pegs… We’d come up with interesting ways to account for this, in which inspired me to write our own version. We’d love to share it with you…&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://patricksimpson.me/mastermind&quot;&gt;Play Mastermind&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;It’s open source on &lt;a href=&quot;https://github.com/patricksimpson/mastermind&quot;&gt;github&lt;/a&gt;!&lt;/p&gt;
-
-&lt;h2 id=&quot;how-to-play&quot;&gt;How to play&lt;/h2&gt;
-
-&lt;p&gt;Click a gray space, then pick a color on the left. Once you have 4 color spaces, press “score” to see your score for that row. For more detailed instructions: https://www.wikihow.com/Play-Mastermind&lt;/p&gt;
-
-&lt;h2 id=&quot;scoring&quot;&gt;Scoring&lt;/h2&gt;
-
-&lt;p&gt;Each white peg means that one of the guessed pegs is correct, but is in the wrong hole. Each red (or black) peg means that one of the guessed pegs is correct, and is in the right hole. The order of the white and black pegs does not matter.&lt;/p&gt;
-
-&lt;h2 id=&quot;end&quot;&gt;End&lt;/h2&gt;
-
-&lt;p&gt;If you guess the correct code, you win!&lt;/p&gt;
-
-&lt;h2 id=&quot;restart&quot;&gt;Restart&lt;/h2&gt;
-
-&lt;p&gt;Refresh your browser for a new game.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Hard things are hard</title>
-   <link href="https://patricksimpson.me/2022/05/01/hardthings/"/>
-   <updated>2022-05-01T00:00:00-04:00</updated>
-   <id>https://patricksimpson.me/2022/05/01/hardthings</id>
-   <content type="html">&lt;blockquote&gt;
-  &lt;p&gt;Nothing in the world is worth having or worth doing unless it means effort, pain, difficulty…
-– Theodore Roosevelt.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;To learn and grow, you must stretch yourself beyond your capabilities.&lt;/p&gt;
-
-&lt;p&gt;Your mind and your body grow the same way. Apply yourself to hard things.&lt;/p&gt;
-
-&lt;p&gt;Remember this next time you seek the “easy” thing.&lt;/p&gt;
-
-</content>
- </entry>
- 
- <entry>
-   <title>Change</title>
-   <link href="https://patricksimpson.me/2022/04/01/introduction/"/>
-   <updated>2022-04-01T00:00:00-04:00</updated>
-   <id>https://patricksimpson.me/2022/04/01/introduction</id>
-   <content type="html">&lt;h2 id=&quot;analog&quot;&gt;Analog&lt;/h2&gt;
-
-&lt;p&gt;Adjective: relating to or using signals or information represented by a continuously variable physical quantity such as spatial position, voltage, etc.&lt;/p&gt;
-
-&lt;p&gt;Noun: a person or thing seen as comparable to another.&lt;/p&gt;
-
-&lt;h2 id=&quot;change&quot;&gt;Change&lt;/h2&gt;
-
-&lt;p&gt;I’ll be posting things here from time to time. You can still find me around the web.&lt;/p&gt;
-
-&lt;p&gt;I’ve made the switch to Jekyll, my older posts can be found on my &lt;a href=&quot;https://github.com/patricksimpson/posts&quot;&gt;github repo&lt;/a&gt;.&lt;/p&gt;
-</content>
- </entry>
- 
+ {% endfor %}
 
 </feed>
