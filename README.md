@@ -9,4 +9,5 @@ Hey thanks for checking out my blog.
 - Ruby
 - JavaScript
 - Emacs
-- [ ] PopOS (Thinkpad)
+- PopOS 
+- Thinkpad T480s
