@@ -8,8 +8,6 @@ title: Happy Thanksgiving!
 > Jim Rohn
 
 
-Whatever adversary you may be going through, hold on. Anything worth having is hard to achieve.
-
-Be thankful for the opportunity to improve yourself.
+Anything worth having is hard to achieve. Be thankful for the opportunity to improve yourself.
 
 Wishing everyone a Happy Thanksgiving!
