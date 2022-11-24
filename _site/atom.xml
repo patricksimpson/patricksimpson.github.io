@@ -3,9 +3,9 @@
 
  <title>Patrick Simpson</title>
  <link href="/atom.xml" rel="self"/>
- <link href="https://patricksimpson.me/"/>
- <updated>2022-08-31T19:51:39-04:00</updated>
- <id>https://patricksimpson.me</id>
+ <link href="http://localhost:4000/"/>
+ <updated>2022-11-24T10:27:30-05:00</updated>
+ <id>http://localhost:4000</id>
  <author>
    <name>Patrick Simpson</name>
    <email>patrick@patricksimpson.me</email>
@@ -13,10 +13,29 @@
 
  
  <entry>
+   <title>Happy Thanksgiving!</title>
+   <link href="http://localhost:4000/2022/11/24/thanksgiving/"/>
+   <updated>2022-11-24T00:00:00-05:00</updated>
+   <id>http://localhost:4000/2022/11/24/thanksgiving</id>
+   <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;Don’t wish it was easier wish you were better. Don’t wish for less problems wish for more skills. Don’t wish for less challenge wish for more wisdom.&lt;/p&gt;
+
+  &lt;p&gt;Jim Rohn&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Whatever adversary you may be going through, hold on. Anything worth having is hard to achieve.&lt;/p&gt;
+
+&lt;p&gt;Be thankful for the opportunity to improve yourself.&lt;/p&gt;
+
+&lt;p&gt;Wishing everyone a Happy Thanksgiving!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Recently</title>
-   <link href="https://patricksimpson.me/2022/08/31/recently/"/>
+   <link href="http://localhost:4000/2022/08/31/recently/"/>
    <updated>2022-08-31T00:00:00-04:00</updated>
-   <id>https://patricksimpson.me/2022/08/31/recently</id>
+   <id>http://localhost:4000/2022/08/31/recently</id>
    <content type="html">&lt;p&gt;I’ll be posting links I find interesting, mostly from Hacker News, but not aways.&lt;/p&gt;
 
 &lt;p&gt;Anyway here’s my list from August:&lt;/p&gt;
@@ -36,9 +55,9 @@
  
  <entry>
    <title>Heroku</title>
-   <link href="https://patricksimpson.me/2022/08/25/goodbye-heroku/"/>
+   <link href="http://localhost:4000/2022/08/25/goodbye-heroku/"/>
    <updated>2022-08-25T00:00:00-04:00</updated>
-   <id>https://patricksimpson.me/2022/08/25/goodbye-heroku</id>
+   <id>http://localhost:4000/2022/08/25/goodbye-heroku</id>
    <content type="html">&lt;p&gt;Finding out about &lt;a href=&quot;https://help.heroku.com/RSBRUH58/removal-of-heroku-free-product-plans-faq&quot;&gt;Heroku removing the free tier&lt;/a&gt; does sting a bit. Being one of the first PaaS services I ever used, it’s a little sad to see it go. I wonder if free PaaS is a pipe dream? At some point &lt;em&gt;free&lt;/em&gt; becomes impossible. I am sure there will be others to give it a shot… but for how long? We need to be able to be flexible, learn to pivot if need be or just pay up. 
 So, here’s one ☕ Heroku, thanks for making your free tier service, it was great while it lasted.&lt;/p&gt;
 
@@ -77,9 +96,9 @@ So, here’s one ☕ Heroku, thanks for making your free tier service, it was gr
  
  <entry>
    <title>Mastermind</title>
-   <link href="https://patricksimpson.me/2022/06/02/mastermind/"/>
+   <link href="http://localhost:4000/2022/06/02/mastermind/"/>
    <updated>2022-06-02T00:00:00-04:00</updated>
-   <id>https://patricksimpson.me/2022/06/02/mastermind</id>
+   <id>http://localhost:4000/2022/06/02/mastermind</id>
    <content type="html">&lt;p&gt;My kids and I love to play games, one of our favorites is Mastermind.
 Unfortunately, we were missing lots of pegs… We’d come up with interesting ways to account for this, in which inspired me to write our own version. We’d love to share it with you…&lt;/p&gt;
 
@@ -107,9 +126,9 @@ Unfortunately, we were missing lots of pegs… We’d come up with interesting w
  
  <entry>
    <title>Hard things are hard</title>
-   <link href="https://patricksimpson.me/2022/05/01/hardthings/"/>
+   <link href="http://localhost:4000/2022/05/01/hardthings/"/>
    <updated>2022-05-01T00:00:00-04:00</updated>
-   <id>https://patricksimpson.me/2022/05/01/hardthings</id>
+   <id>http://localhost:4000/2022/05/01/hardthings</id>
    <content type="html">&lt;blockquote&gt;
   &lt;p&gt;Nothing in the world is worth having or worth doing unless it means effort, pain, difficulty…
 – Theodore Roosevelt.&lt;/p&gt;
@@ -126,9 +145,9 @@ Unfortunately, we were missing lots of pegs… We’d come up with interesting w
  
  <entry>
    <title>Change</title>
-   <link href="https://patricksimpson.me/2022/04/01/introduction/"/>
+   <link href="http://localhost:4000/2022/04/01/introduction/"/>
    <updated>2022-04-01T00:00:00-04:00</updated>
-   <id>https://patricksimpson.me/2022/04/01/introduction</id>
+   <id>http://localhost:4000/2022/04/01/introduction</id>
    <content type="html">&lt;h2 id=&quot;analog&quot;&gt;Analog&lt;/h2&gt;
 
 &lt;p&gt;Adjective: relating to or using signals or information represented by a continuously variable physical quantity such as spatial position, voltage, etc.&lt;/p&gt;
