@@ -4,13 +4,55 @@
  <title>Patrick Simpson</title>
  <link href="/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2022-11-24T10:27:30-05:00</updated>
+ <updated>2023-03-10T23:02:43-05:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Patrick Simpson</name>
    <email>patrick@patricksimpson.me</email>
  </author>
 
+ 
+ <entry>
+   <title>Action &gt; Words</title>
+   <link href="http://localhost:4000/2023/03/10/action/"/>
+   <updated>2023-03-10T00:00:00-05:00</updated>
+   <id>http://localhost:4000/2023/03/10/action</id>
+   <content type="html">&lt;p&gt;This &lt;a href=&quot;https://world.hey.com/dhh/actions-beat-arguments-2aa1da34&quot;&gt;recent article by DHH&lt;/a&gt; resonates with me pretty significantly, actions &amp;gt; arguments.&lt;/p&gt;
+
+&lt;p&gt;As my mom put it… “actions speak louder than words.”&lt;/p&gt;
+
+&lt;p&gt;One thing I notice, when it comes to engineering teams, is that &lt;em&gt;doing&lt;/em&gt; beats &lt;em&gt;talking&lt;/em&gt;. Many organizations (think big corporations) are paralyzed by &lt;strong&gt;non-action&lt;/strong&gt;, or too many words spoken and not enough fingers on keyboards. 
+The ‘bloatifcation’ of engineering teams eventually grinds down action. A lot of talk and not a lot of doing…&lt;/p&gt;
+
+&lt;p&gt;This is another reason why I chose to work for a start-up. If you &lt;em&gt;say&lt;/em&gt; you’re going to do something, make sure you follow through with &lt;strong&gt;action&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;recently---a-few-good-links&quot;&gt;Recently - A few good links&lt;/h2&gt;
+
+&lt;h3 id=&quot;mrsk&quot;&gt;MRSK&lt;/h3&gt;
+
+&lt;p&gt;I’ve been reading about MRSK…&lt;/p&gt;
+
+&lt;p&gt;MRSK deploys web apps anywhere from bare metal to cloud VMs using Docker with zero downtime.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://m.youtube.com/watch?v=LL1cV2FXZ5I&quot;&gt;https://m.youtube.com/watch?v=LL1cV2FXZ5I&lt;/a&gt;
+&lt;a href=&quot;https://github.com/mrsked/mrsk&quot;&gt;https://github.com/mrsked/mrsk&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Looking for a quick function in lodash? Check out no-dash. It may easier than you realize: &lt;a href=&quot;https://thescottyjam.github.io/snap.js/#!/nolodash&quot;&gt;https://thescottyjam.github.io/snap.js/#!/nolodash&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A full stack monitoring platform:
+&lt;a href=&quot;https://github.com/highlight/highlight&quot;&gt;https://github.com/highlight/highlight&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Do you even need web-pack?
+&lt;a href=&quot;https://jvns.ca/blog/2023/02/16/writing-javascript-without-a-build-system/&quot;&gt;https://jvns.ca/blog/2023/02/16/writing-javascript-without-a-build-system/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Dang dude, I feel for you:
+&lt;a href=&quot;https://github.com/zloirock/core-js/blob/master/docs/2023-02-14-so-whats-next.md&quot;&gt;https://github.com/zloirock/core-js/blob/master/docs/2023-02-14-so-whats-next.md&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Make your rails console much better: &lt;a href=&quot;https://m.youtube.com/watch?v=rnN8WZNH4kk&quot;&gt;https://m.youtube.com/watch?v=rnN8WZNH4kk&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Want to make your own weather app? Check out this API: &lt;a href=&quot;https://weathermachine.io/&quot;&gt;https://weathermachine.io/&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Happy Thanksgiving!</title>
@@ -23,9 +65,7 @@
   &lt;p&gt;Jim Rohn&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Whatever adversary you may be going through, hold on. Anything worth having is hard to achieve.&lt;/p&gt;
-
-&lt;p&gt;Be thankful for the opportunity to improve yourself.&lt;/p&gt;
+&lt;p&gt;Anything worth having is hard to achieve. Be thankful for the opportunity to improve yourself.&lt;/p&gt;
 
 &lt;p&gt;Wishing everyone a Happy Thanksgiving!&lt;/p&gt;
 </content>

@@ -10,6 +10,24 @@
   margin-right: auto;
 }
 
+.page .project {
+  display: flex;
+}
+
+.me {
+  max-width: 160px;
+  border-radius: 50%;
+  float: right;
+  margin-left: 2rem;
+  box-shadow: 2px 0px #363535;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.project img {
+  max-width: 300px;
+}
+
 footer {
   margin-top: var(--spacer-3);
   margin-bottom: var(--spacer-3);

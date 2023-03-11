@@ -4,6 +4,9 @@ title: About
 ---
 
 Hey, I am Patrick! 👋
+
+<img id="patrick" src="{{site.url}}/assets/headshot.jpeg" title="Patrick" class="me"/>
+
 I have been writing software for over 20 years, currently at [Redi Health](https://redi.health/).
 
 Recently, I’ve made the switch to Jekyll. Previously, I had maintained my own static blog for many years. Older posts can be found on my [github repo](https://github.com/patricksimpson/posts).
