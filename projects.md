@@ -3,51 +3,13 @@ layout: page
 title: Projects
 ---
 
--------
-
-## Pointer ~ 2020-2023
-
-A simple agile pointing tool. 
-
-<div class="project">
-<img src="https://i.imgur.com/atJUzxr.png" title="pointer!">
-</div>
-
-- See it live: <https://pointer.bet>.
-- GitHub: <https://github.com/patricksimpson/pointer>.
-
------- 
-
-## Mastermind ~ 2022
-
-The world famous board game!
-
-<div class="project">
-<img src="https://imgur.com/v4uDXyQ.png" title="Mastermind">
-</div>
-
-- See it live: <https://patricksimpson.me/mastermind>.
-- GitHub: <https://github.com/patricksimpson/pointer>.
-
------- 
-
-## Cachebust ~ 2018
-
-- GitHub: <https://github.com/sparkbox/cachebust>
-
-`npm install @sparkbox/cachebust`
-
-
------- 
-
-## Mina Circle ~ 2015
-
-A mina deployment wrapper for circle ci deployments.
-
-- GitHub: <https://github.com/sparkbox/mina-circle>
-
-
------- 
+- [Pointer](/projects/pointer) - a simple agile tool using websockets.
+- [Mastermind](/projects/mastermind) - a fun little JavaScript game.
+- [Cachebust](/projects/cachebust) - simple cache busting package in node, (active).
+- [Mina Circle](/projects/minacircle) - a circle ci plugin for mina deployment, (gem).
+- [WebLogo](/projects/weblogo) - an nano implementation of the logo language, in JavaScript.
+- [CSSSelectorTester](/projects/cssselectortester) - my first and only chrome plugin, (defunct).
+- [izerop.com v1](/projects/izerop-v1) - my first major web project and hosting platform.
 
 
 ## WebLogo ~ 2012
