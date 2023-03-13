@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Projects - Cachebust
+title: Cachebust
 ---
 
-[back to projects](/projects)
+## 2017 - 2018
 
-## 2018
+Straight forward asset fingerprinting "cachebuster" for production applications.
 
 - GitHub: <https://github.com/sparkbox/cachebust>
 
@@ -15,4 +15,6 @@ title: Projects - Cachebust
 
 - NodeJS
 
------- 
+----
+
+[Back to Projects](/projects)

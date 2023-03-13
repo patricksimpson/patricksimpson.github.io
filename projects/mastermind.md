@@ -1,13 +1,11 @@
 ---
 layout: page
-title: Projects - Mastermind
+title: Mastermind
 ---
-
-[back to projects](/projects)
 
 ## 2022
 
-The world famous board game!
+The world famous board game! Built for fun, you can [read my post about it](/2022/06/02/mastermind/) and why I built it.
 
 <div class="project">
 <img src="https://imgur.com/v4uDXyQ.png" title="Mastermind">
@@ -21,4 +19,8 @@ The world famous board game!
 
 - JavaScript
 - React
+
+----
+
+[Back to Projects](/projects)
 

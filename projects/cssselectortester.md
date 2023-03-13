@@ -17,4 +17,7 @@ went defunct in 2021.
 - JavaScript
 - jQuery
 
-[back to projects](/projects)
+
+----
+
+[Back to Projects](/projects)

@@ -1,21 +1,22 @@
 ---
 layout: page
-title: Projects - Pointer
+title: WebLogo 
 ---
 
-A simple agile pointing tool. Written to aid estimating agile story points for an upcoming sprint "refinment."
+## 2012
 
-<div class="project">
-<img src="https://i.imgur.com/atJUzxr.png" title="pointer!">
-</div>
+A nano implementation of the logo language. This project helped me in so 
+many ways. 
 
-- See it live: <https://pointer.bet>.
-- GitHub: <https://github.com/patricksimpson/pointer>.
+- See it live: <https://patricksimpson.me/weblogo>
+- GitHub: <https://github.com/patricksimpson/weblogo>
 
 ## Tech used
 
-- Websockets
-- NodeJS
-- React
+- JavaScript
+- PaperJS
+- jQuery
 
------- 
+----
+
+[Back to Projects](/projects)
