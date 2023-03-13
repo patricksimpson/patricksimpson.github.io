@@ -4,7 +4,7 @@ title: izerop.com - v1
 ---
 
 
-## ~ 2002 - 2005
+## ~ 2002 - 2004
 
 A "free" web hosting website. My first large web project. The project suffered a catastrophic
 end after massing hundreds of users (most of which were repeat and/or fake), all user data was deleted either by accident or from malicious code (exploited).
@@ -20,10 +20,15 @@ are being removed. I am going to capture some of them here as part of this proje
 
 - See it on the Archive: <https://web.archive.org/web/20031203162011/http://www.izerop.com/index.php?action=news>
 
+#### Late 2003
+
 <img src="/assets/izerop-1.png" class="project" />
 <img src="/assets/izerop-3.png" class="project" />
 <img src="/assets/izerop-4.png" class="project" />
 <img src="/assets/izerop-5.png" class="project" />
+
+#### Early ~ 2004
+
 <img src="/assets/izerop-end.png" class="project" />
 
 ## Tech Used
