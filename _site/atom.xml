@@ -4,13 +4,31 @@
  <title>Patrick Simpson</title>
  <link href="/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2023-03-13T00:17:15-04:00</updated>
+ <updated>2023-05-11T16:26:27-04:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Patrick Simpson</name>
    <email>patrick@patricksimpson.me</email>
  </author>
 
+ 
+ <entry>
+   <title>izerop redux</title>
+   <link href="http://localhost:4000/2023/05/11/izerop-redux/"/>
+   <updated>2023-05-11T00:00:00-04:00</updated>
+   <id>http://localhost:4000/2023/05/11/izerop-redux</id>
+   <content type="html">&lt;p&gt;Hi there, it’s been 20 years…&lt;/p&gt;
+
+&lt;p&gt;izerop was &lt;a href=&quot;/projects/izerop&quot;&gt;first launched in 2003&lt;/a&gt;, with the help of my friends before my 18th birthday. The project, at the time, lasted about a year before it came to an abrupt end.
+However, the saga continues…&lt;/p&gt;
+
+&lt;p&gt;Today, I am announcing a beta launch of the project to a wider audience. Feel free to join and help me solidify this product.&lt;/p&gt;
+
+&lt;p&gt;See it live @ &lt;a href=&quot;https://izerop.com&quot;&gt;izerop.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Thank you!&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Action over Words</title>

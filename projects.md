@@ -3,7 +3,7 @@ layout: page
 title: Projects
 ---
 
-- izerop.com v2 - in the works.
+- [izerop.com v2](https://izerop.com/about) - redux of my 20 year old pet project.
 - [Pointer](/projects/pointer) - a simple agile tool using websockets (active development).
 - [Mastermind](/projects/mastermind) - a fun little JavaScript game.
 - [Barbell Calculator](/projects/barbell) - a simple barbell calculator.
